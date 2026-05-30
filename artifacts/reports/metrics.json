@@ -1,0 +1,9 @@
+{
+    "n_clusters": 6,
+    "pca_components": 2,
+    "silhouette_score": 0.346741249683551,
+    "davies_bouldin_score": 0.9723893264834321,
+    "pca_component_1_variance": 0.7339619682233375,
+    "pca_component_2_variance": 0.1696820382009729,
+    "pca_total_variance": 0.9036440064243104
+}

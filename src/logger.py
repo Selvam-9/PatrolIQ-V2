@@ -14,8 +14,13 @@ LOG_FILE = os.path.join(
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format=(
+        "%(asctime)s - "
+        "%(name)s - "
+        "%(levelname)s - "
+        "%(message)s"
+    )
 )
 
-def get_logger():
-    return logging
+def get_logger(name):
+    return logging.getLogger(name)
